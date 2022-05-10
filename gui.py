@@ -10,8 +10,8 @@ from keras.preprocessing.sequence import pad_sequences
 
 
 max_length = 26
-tokenizer = load(open("tokenizer.p","rb"))
-model = load_model('model.h5')
+tokenizer = load(open("data/tokenizer.p","rb"))
+model = load_model('Models/model_29.h5')
 xception_model = Xception(include_top=False,pooling='avg')
 
 def generate_caption():
