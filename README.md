@@ -8,15 +8,17 @@
 
 ### Steps to run Image Captioning.ipynb on local machine: <br>
 <ul style="list-style-type:disc;">
-    <li>Open notebook file in Jupyter or Google Colab.</li>
+    <li>Open notebook files in Jupyter or Google Colab.</li>
     <li>Run the following sections to build the model:</li> 
         <ul style="list-style-type:disc;">
             <li>Download data - Downloads the dataset and unzips.</li>
-            <li>Import Libraries - Imports required libraries and tools</li>
-            <li>Cleaning Captions - For preprocessing descripitons.</li>
+            <li>Import Libraries - Imports required libraries, tools, and functional APIs like TensorFlow, Keras, etc.
+</li>
+            <li>Cleaning Captions -  For preprocessing image captions (converting words to lower etc.)</li>
             <li>Feature extraction - Extracts features from images using Xception Model. (Run this to extract features)</li>
-            <li>(Optional) Loading Saved Features - Load the saved features if already extracted. </li>
-            <li>Building Vocabulary - Tokenizing  the captions.</li>
+            <li>(Optional) Loading Saved Features - Load the saved feature pickle file from the ‘data’ folder. 
+ </li>
+            <li>Building Vocabulary - Assigning index values to all the unique values using the dictionary and tokenizing the captions..</li>
         </ul>  
 
 ### Build, Train and Evaluate Mode: Run this for implementing data generator, building model, training and evaluating. 
