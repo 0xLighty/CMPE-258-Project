@@ -1,8 +1,10 @@
 # CMPE 258 Project - Image Captioning Using CNN
-# Jay Bharadva (015958449)
-# Ramkumar Sivakumar (015443727)
-# Priyanka NAM (015287805)
-# Vedakshay Jandhyala (015353065)
+
+Project Team Details
+Jay Bharadva (015958449)
+Ramkumar Sivakumar (015443727)
+Priyanka NAM (015287805)
+Vedakshay Jandhyala (015353065)
 
 
 GUI Instructions:
